@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single product page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,600;1,700;1,800&family=Inter:wght@400;500;600;700&family=Kumbh Sans:wght@400;500;600;700&family=Istok Web:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="wrapper">
+          <div class="items">
+            <input
+              type="text"
+              class="plant"
+              placeholder="Suchen Sie nach Produkten, Marken und mehr"
+            />
+            <select class="language">
+              <option value="l">En</option>
+            </select>
+            <ul class="list">
+              <li class="list-link">
+                <svg class="user">
+                  <use href="./css/images/sprite/icons.svg#icon-User"></use>
+                </svg>
+                Account
+              </li>
+              <li class="list-link">
+                <svg class="bag">
+                  <use href="./css/images/sprite/icons.svg#icon-Bag_alt"></use>
+                </svg>
+                <p class="sign">3</p>
+                Cart
+              </li>
+            </ul>
+          </div>
+          <div class="menus">
+            <ul class="menu-lists">
+              <li class="menu-list">
+                <select class="product">
+                  <option value="bel">Beleuchtung</option>
+                </select>
+              </li>
+              <li class="menu-list">
+                <select class="product">
+                  <option value="gro">Growbox</option>
+                  <option value="kom">&bull; Komplettset</option>
+                </select>
+              </li>
+              <li class="menu-list">
+                <select class="product">
+                  <option value="dun">Dünger</option>
+                </select>
+              </li>
+              <li class="menu-list">
+                <select class="product">
+                  <option value="erd">Erde & Substrate</option>
+                </select>
+              </li>
+              <li class="menu-list">
+                <select class="product">
+                  <option value="top">Töpfe & Behälter</option>
+                  <option value="eck">&bull; Eckige Töpfe</option>
+                  <option value="run">&bull; Runde Töpfe</option>
+                  <option value="unt">&bull; Untersetze</option>
+                  <option value="pfl">&bull; Pflanzschalen</option>
+                </select>
+              </li>
+              <li class="menu-list">
+                <select class="product">
+                  <option value="bew">Bewässerung</option>
+                </select>
+              </li>
+              <li class="menu-list">
+                <select class="product">
+                  <option value="gar">Pflanzen & Gärtnern</option>
+                </select>
+              </li>
+              <li class="menu-list">
+                <select class="product">
+                  <option value="luf">Lüftung & Klimaanlage</option>
+                </select>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="plant-pots">
+        <h1 class="visually-hidden">Descriptions</h1>
+        <a href="index.html"
+          ><svg class="left-arrow">
+            <use href="./css/images/sprite/icons.svg#icon-Arrow"></use></svg
+        ></a>
+        <div class="container">
+          <ul class="pots-description">
+            <li class="pot-description">
+              <ul class="pot-drawings">
+                <li class="pot-drawing">
+                  <div class="pot-picture"></div>
+                </li>
+                <li class="pot-drawing">
+                  <div class="pot-picture"></div>
+                </li>
+                <li class="pot-drawing">
+                  <div class="pot-picture"></div>
+                </li>
+                <li class="pot-drawing">
+                  <div class="pot-picture"></div>
+                </li>
+              </ul>
+            </li>
+            <li class="pot-description">
+              <p class="plant-title">Plant</p>
+              <h2 class="pot-title">
+                Square cultivation pots 0.27 to 2 litres
+              </h2>
+              <p class="lorem">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the
+              </p>
+              <div class="pot-prices">
+                <p class="pot-money">$125.00</p>
+                <p class="pot-percentage">50%</p>
+              </div>
+              <p class="pot-price-corrected">$250.00</p>
+              <div class="controls">
+                <svg class="icon-symbols">
+                  <use href="./css/images/sprite/icons.svg#icon-symbols"></use>
+                </svg>
+
+                <button type="button" class="cart">
+                  <svg class="icon-cart">
+                    <use
+                      href="./css/images/sprite/icons.svg#icon-cart"
+                    ></use></svg
+                  >Add to cart
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="comments">
+        <div class="container">
+          <h2 class="ipsum">Discription</h2>
+          <p class="ipsum-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled i
+          </p>
+          <h2 class="about">About</h2>
+          <p class="about-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled i
+          </p>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <ul class="objects">
+            <li class="object"></li>
+            <li class="object">
+              <div class="stars"></div>
+              <div class="figures">
+                <p class="figure">5.0</p>
+                <p class="bracket">(388)</p>
+              </div>
+            </li>
+            <li class="object">
+              <button type="button" class="write">Write reviews</button>
+            </li>
+          </ul>
+          <ul class="decors">
+            <li class="decor">
+              <p class="row">1</p>
+              <div class="star"></div>
+              <p class="space"></p>
+              <p class="digit">(388)</p>
+            </li>
+            <li class="decor">
+              <p class="row">2</p>
+              <div class="star"></div>
+              <p class="bar"></p>
+            </li>
+            <li class="decor">
+              <p class="row">3</p>
+              <div class="star"></div>
+              <p class="bar"></p>
+            </li>
+            <li class="decor">
+              <p class="row">4</p>
+              <div class="star"></div>
+              <p class="bar"></p>
+            </li>
+            <li class="decor">
+              <p class="row">5</p>
+              <div class="star"></div>
+              <p class="bar"></p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="abstracts">
+        <div class="container">
+          <ul class="summaries">
+            <li class="summary">
+              <div class="summary-name">
+                <h2 class="name">Aman gupta</h2>
+                <p class="icon-stars"></p>
+              </div>
+              <p class="summary-text">
+                I've been using this cleanser for about five or six months now
+                and my acne is almost completely gone. I really struggled for
+                years with my skin and tried everything possible but this is the
+                only thing that managed to clear up my skin. 100% recommend and
+                will continue to use is for sure.
+              </p>
+            </li>
+            <li class="summary">
+              <div class="summary-name">
+                <h2 class="name">Aman gupta</h2>
+                <p class="icon-stars"></p>
+              </div>
+              <p class="summary-text">
+                I've been using this cleanser for about five or six months now
+                and my acne is almost completely gone. I really struggled for
+                years with my skin and tried everything possible but this is the
+                only thing that managed to clear up my skin. 100% recommend and
+                will continue to use is for sure.
+              </p>
+              <div class="summary-name">
+                <h2 class="name">Aman gupta</h2>
+                <p class="icon-stars"></p>
+              </div>
+              <p class="summary-text">
+                I've been using this cleanser for about five or six months now
+                and my acne is almost completely gone. I really struggled for
+                years with my skin and tried everything possible but this is the
+                only thing that managed to clear up my skin. 100% recommend and
+                will continue to use is for sure.
+              </p>
+            </li>
+          </ul>
+          <button type="button" class="see">See all</button>
+        </div>
+      </section>
+      <section class="inputs">
+        <div class="container">
+          <div class="inform-wrapper">
+            <div class="inform">
+              <h2 class="inform-title-subscriber">Etwas abonnieren</h2>
+              <h2 class="inform-title-newsletter">Unser Newsletter</h2>
+              <p class="inform-text">
+                Get weekly update about our product on your email, no spam
+                guaranteed we promise
+              </p>
+            </div>
+            <div class="enters">
+              <input
+                type="text"
+                class="data-enter"
+                placeholder="youremail123@gmail.com"
+              />
+              <label class="subscribers">ABONNIEREN</label>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-info">
+        <div class="footer-data">
+          <p class="footer-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+          <ul class="footer-icons">
+            <li class="footer-icon">
+              <a href="#" class="icon-link"
+                ><svg class="icon-facebook">
+                  <use
+                    href="./css/images/sprite/icons.svg#icon-facebook"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="footer-icon">
+              <a href="#" class="icon-link"
+                ><svg class="icon-twitter">
+                  <use
+                    href="./css/images/sprite/icons.svg#icon-twitter"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="footer-icon">
+              <a href="#" class="icon-link"
+                ><svg class="icon-linkedin">
+                  <use
+                    href="./css/images/sprite/icons.svg#icon-linkedin"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="footer-icon">
+              <a href="#" class="icon-link"
+                ><svg class="icon-lucide_youtube">
+                  <use
+                    href="./css/images/sprite/icons.svg#icon-lucide_youtube"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="footer-icon">
+              <a href="#" class="icon-link"
+                ><svg class="icon-instagram">
+                  <use
+                    href="./css/images/sprite/icons.svg#icon-instagram"
+                  ></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-us">
+          <h2 class="us">Um</h2>
+          <ul class="details">
+            <li class="detail">Kontaktiere uns</li>
+            <li class="detail">Über uns</li>
+            <li class="detail">Karriere</li>
+            <li class="detail">Unternehmensinformationen</li>
+          </ul>
+        </div>
+        <div class="footer-life">
+          <h2 class="life">Hilfe</h2>
+          <ul class="life-goods">
+            <li class="life-good">Unsere Produzenten</li>
+            <li class="life-good">Zahlung</li>
+            <li class="life-good">Versand</li>
+            <li class="life-good">Stornierung & Rückgabe</li>
+            <li class="life-good">Verstoß melden</li>
+          </ul>
+        </div>
+        <div class="footer-police">
+          <h2 class="police">politik</h2>
+          <ul class="determinations">
+            <li class="determination">Rücknahmegarantie</li>
+            <li class="determination">Nutzungsbedingungen</li>
+            <li class="determination">Sicherheit</li>
+            <li class="determination">Privatsphäre</li>
+            <li class="determination">Seitenverzeichnis</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="payment-means">
+      <p class="company">2023 hood.de , Inc.</p>
+      <p class="payment-icon"></p>
+      <p class="scroll">Scroll to top</p>
+      <svg class="arrow-up">
+        <use href="./css/images/sprite/icons.svg#icon-Arrow-top"></use>
+      </svg>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desktop - 1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,600;1,700;1,800&family=Inter:wght@400;500;600;700&family=Kumbh Sans:wght@400;500;600;700&family=Istok Web:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="wrapper">
+          <div class="items">
+            <input
+              type="text"
+              class="plant"
+              placeholder="Suchen Sie nach Produkten, Marken und mehr"
+            />
+            <select class="language">
+              <option value="l">En</option>
+            </select>
+            <ul class="list">
+              <li class="list-link">
+                <svg class="user">
+                  <use href="./css/images/sprite/icons.svg#icon-User"></use>
+                </svg>
+                Account
+              </li>
+              <li class="list-link">
+                <svg class="bag">
+                  <use href="./css/images/sprite/icons.svg#icon-Bag_alt"></use>
+                </svg>
+                <p class="sign">3</p>
+                Cart
+              </li>
+            </ul>
+          </div>
+          <div class="menus">
+            <ul class="menu-lists">
+              <li class="menu-list">
+                <select class="product">
+                  <option value="bel">Beleuchtung</option>
+                </select>
+              </li>
+              <li class="menu-list">
+                <select class="product">
+                  <option value="gro">Growbox</option>
+                  <option value="kom">&bull; Komplettset</option>
+                </select>
+              </li>
+              <li class="menu-list">
+                <select class="product">
+                  <option value="dun">Dünger</option>
+                </select>
+              </li>
+              <li class="menu-list">
+                <select class="product">
+                  <option value="erd">Erde & Substrate</option>
+                </select>
+              </li>
+              <li class="menu-list">
+                <select class="product">
+                  <option value="top">Töpfe & Behälter</option>
+                  <option value="eck">&bull; Eckige Töpfe</option>
+                  <option value="run">&bull; Runde Töpfe</option>
+                  <option value="unt">&bull; Untersetze</option>
+                  <option value="pfl">&bull; Pflanzschalen</option>
+                </select>
+              </li>
+              <li class="menu-list">
+                <select class="product">
+                  <option value="bew">Bewässerung</option>
+                </select>
+              </li>
+              <li class="menu-list">
+                <select class="product">
+                  <option value="gar">Pflanzen & Gärtnern</option>
+                </select>
+              </li>
+              <li class="menu-list">
+                <select class="product">
+                  <option value="luf">Lüftung & Klimaanlage</option>
+                </select>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h1 class="visually-hidden">Pots</h1>
+      <section class="holders">
+        <h2 class="holders-title">Töpfe & Behälter</h2>
+      </section>
+      <section class="containers">
+        <a href="index.html"
+          ><svg class="left-arrow">
+            <use href="./css/images/sprite/icons.svg#icon-Arrow"></use></svg
+        ></a>
+
+        <div class="container">
+          <ul class="reservoirs">
+            <li class="reservoir">
+              <div class="reservoir-picture"></div>
+              <h3 class="reservoir-title">Eckige Töpfe</h3>
+            </li>
+            <li class="reservoir">
+              <div class="reservoir-picture"></div>
+              <h3 class="reservoir-title">Runde Töpfe</h3>
+            </li>
+            <li class="reservoir">
+              <div class="reservoir-picture"></div>
+              <h3 class="reservoir-title">Untersetzer</h3>
+            </li>
+            <li class="reservoir">
+              <div class="reservoir-picture"></div>
+              <h3 class="reservoir-title">Pflanzschalen</h3>
+            </li>
+          </ul>
+          <ul class="choose-items">
+            <li class="choose-item">
+              <label for="choice" class="label-text">Sort By :</label>
+              <select id="choice">
+                <option value="ch">Newest</option>
+              </select>
+            </li>
+            <li class="choose-item">
+              <label for="choice" class="label-text">Show :</label>
+              <select id="choice">
+                <option value="df">Default</option>
+              </select>
+            </li>
+          </ul>
+          <ul class="pot-categories">
+            <li class="pot-category">
+              <ul class="show-pots">
+                <li class="show-pot">
+                  <div class="pot-image"></div>
+                  <h3 class="pot-name">Square cultivation pots</h3>
+                  <div class="prices">
+                    <p class="pot-price">$38.00</p>
+                    <p class="pot-price-crossed-out">$45.00</p>
+                  </div>
+                </li>
+                <li class="show-pot">
+                  <div class="pot-image"></div>
+                  <h3 class="pot-name">Round plant pots</h3>
+                  <p class="pot-price">$28.00</p>
+                </li>
+                <li class="show-pot">
+                  <div class="pot-image"></div>
+                  <h3 class="pot-name">Square plant pots</h3>
+                  <div class="prices">
+                    <p class="pot-price">$21.00</p>
+                    <p class="pot-price-crossed-out">$45.00</p>
+                  </div>
+                </li>
+                <li class="show-pot">
+                  <div class="pot-image"></div>
+                  <h3 class="pot-name">Mesh pots round</h3>
+                  <p class="pot-price">$45.00</p>
+                </li>
+                <li class="show-pot">
+                  <div class="pot-image"></div>
+                  <h3 class="pot-name">Square cultivation pots</h3>
+                  <div class="prices">
+                    <p class="pot-price">$23.00</p>
+                    <p class="pot-price-crossed-out">$45.00</p>
+                  </div>
+                </li>
+                <li class="show-pot">
+                  <div class="pot-image"></div>
+                  <h3 class="pot-name">Mess pot</h3>
+                  <p class="pot-price">$43.00</p>
+                </li>
+                <li class="show-pot">
+                  <div class="pot-image"></div>
+                  <h3 class="pot-name">Square plant</h3>
+                  <p class="pot-price">$10.00</p>
+                </li>
+                <li class="show-pot">
+                  <div class="pot-image"></div>
+                  <h3 class="pot-name">Round plant pot</h3>
+                  <p class="pot-price">$25.00</p>
+                </li>
+                <li class="show-pot">
+                  <div class="pot-image"></div>
+                  <h3 class="pot-name">Square plant</h3>
+                  <p class="pot-price">$12.00</p>
+                </li>
+              </ul>
+            </li>
+            <li class="pot-category">
+              <h2 class="list-title">Kategorien</h2>
+              <ul class="list-categories">
+                <li class="list-category">
+                  <input type="checkbox" class="list-check" />
+                  <label class="text-check">Eckige Töpfe</label>
+                </li>
+                <li class="list-category">
+                  <input type="checkbox" class="list-check" />
+                  <label class="text-check">Runde Töpfe</label>
+                </li>
+                <li class="list-category">
+                  <input type="checkbox" class="list-check" />
+                  <label class="text-check">Untersetzer</label>
+                </li>
+                <li class="list-category">
+                  <input type="checkbox" class="list-check" />
+                  <label class="text-check">Pflanzschalen</label>
+                </li>
+              </ul>
+              <div class="favorite-image"></div>
+              <p class="price-filter">Filter By Price</p>
+              <div class="price-image"></div>
+              <div class="price-wrapper">
+                <p class="price">From $0 to $8000</p>
+                <p class="filter">Filter</p>
+              </div>
+              <p class="filter-size">Filter By Size</p>
+              <div class="price-image"></div>
+              <div class="price-wrapper">
+                <p class="price">2 mm by 50</p>
+                <p class="filter">Filter</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="inputs">
+        <div class="container">
+          <div class="inform-wrapper">
+            <div class="inform">
+              <h2 class="inform-title-subscriber">Etwas abonnieren</h2>
+              <h2 class="inform-title-newsletter">Unser Newsletter</h2>
+              <p class="inform-text">
+                Get weekly update about our product on your email, no spam
+                guaranteed we promise
+              </p>
+            </div>
+            <div class="enters">
+              <input
+                type="text"
+                class="data-enter"
+                placeholder="youremail123@gmail.com"
+              />
+              <label class="subscribers">ABONNIEREN</label>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-info">
+        <div class="footer-data">
+          <p class="footer-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+          <ul class="footer-icons">
+            <li class="footer-icon">
+              <a href="#" class="icon-link"
+                ><svg class="icon-facebook">
+                  <use
+                    href="./css/images/sprite/icons.svg#icon-facebook"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="footer-icon">
+              <a href="#" class="icon-link"
+                ><svg class="icon-twitter">
+                  <use
+                    href="./css/images/sprite/icons.svg#icon-twitter"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="footer-icon">
+              <a href="#" class="icon-link"
+                ><svg class="icon-linkedin">
+                  <use
+                    href="./css/images/sprite/icons.svg#icon-linkedin"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="footer-icon">
+              <a href="#" class="icon-link"
+                ><svg class="icon-lucide_youtube">
+                  <use
+                    href="./css/images/sprite/icons.svg#icon-lucide_youtube"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="footer-icon">
+              <a href="#" class="icon-link"
+                ><svg class="icon-instagram">
+                  <use
+                    href="./css/images/sprite/icons.svg#icon-instagram"
+                  ></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-us">
+          <h2 class="us">Um</h2>
+          <ul class="details">
+            <li class="detail">Kontaktiere uns</li>
+            <li class="detail">Über uns</li>
+            <li class="detail">Karriere</li>
+            <li class="detail">Unternehmensinformationen</li>
+          </ul>
+        </div>
+        <div class="footer-life">
+          <h2 class="life">Hilfe</h2>
+          <ul class="life-goods">
+            <li class="life-good">Unsere Produzenten</li>
+            <li class="life-good">Zahlung</li>
+            <li class="life-good">Versand</li>
+            <li class="life-good">Stornierung & Rückgabe</li>
+            <li class="life-good">Verstoß melden</li>
+          </ul>
+        </div>
+        <div class="footer-police">
+          <h2 class="police">politik</h2>
+          <ul class="determinations">
+            <li class="determination">Rücknahmegarantie</li>
+            <li class="determination">Nutzungsbedingungen</li>
+            <li class="determination">Sicherheit</li>
+            <li class="determination">Privatsphäre</li>
+            <li class="determination">Seitenverzeichnis</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="payment-means">
+      <p class="company">2023 hood.de , Inc.</p>
+      <p class="payment-icon"></p>
+      <p class="scroll">Scroll to top</p>
+      <svg class="arrow-up">
+        <use href="./css/images/sprite/icons.svg#icon-Arrow-top"></use>
+      </svg>
+    </div>
+  </footer>
+</html>
